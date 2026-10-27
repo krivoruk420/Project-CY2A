@@ -1,0 +1,45 @@
+# Blender temporary and backup files (keep authored .blend files)
+*.blend1
+*.blend2
+*.blend@*
+*.blend~
+*.bphys
+*.baked
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# BeamNG local logs, caches, and crash output
+*.log
+*.dmp
+*.crash
+cache/
+logs/
+crash-dumps/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build output; keep this placeholder tracked
+dist/*
+!dist/.gitkeep
+
+# Local environment/configuration and secrets
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.toml
+

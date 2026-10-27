@@ -1,0 +1,22 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.jbeam text eol=lf
+*.cs text eol=lf
+*.lua text eol=lf
+*.dae text eol=lf
+*.material text eol=lf
+*.pc text eol=lf
+*.blend binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.dds binary
+*.zip binary
+*.7z binary
+*.pdf binary
